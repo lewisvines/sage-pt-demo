@@ -8,10 +8,10 @@
 <meta name="description" content="Maquete de revisão interna. Confidencial.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --green:#00DC82; --green-d:#04B86E; --green-ink:#065C3C;
+    --green:#00D639; --green-d:#00B833; --green-ink:#008146;
     --ink:#0F0F10; --ink2:#15151A; --ink-soft:#3A3A3F;
     --coral:#FF7676; --cyan:#6ED1F0; --violet:#B9A8FF;
     --paper:#FFFFFF; --mist:#F5F8F6; --mint:#E9FBF1;
@@ -23,11 +23,11 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
+  body{font-family:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
   body[data-lang="pt"] .en{display:none !important}
   body[data-lang="en"] .pt{display:none !important}
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;position:relative;z-index:2}
-  h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.06;letter-spacing:-.02em}
+  h1,h2,h3{font-family:'Schibsted Grotesk',Georgia,serif;font-weight:600;line-height:1.06;letter-spacing:-.02em}
   em{font-style:italic;color:var(--green-d)}
   a{color:inherit;text-decoration:none}
   .eyebrow{font-size:11.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--green-ink);display:inline-flex;align-items:center;gap:10px}
@@ -36,7 +36,7 @@
   /* Atmospheric dark canvas (France premium signature) */
   .atmos{position:relative;color:#fff;overflow:hidden;
     background:
-      radial-gradient(ellipse at 78% 12%, rgba(0,220,130,.14) 0%, transparent 46%),
+      radial-gradient(ellipse at 78% 12%, rgba(0,214,57,.14) 0%, transparent 46%),
       radial-gradient(ellipse at 12% 88%, rgba(110,209,240,.07) 0%, transparent 42%),
       radial-gradient(ellipse at 88% 84%, rgba(185,168,255,.06) 0%, transparent 42%),
       var(--ink)}
@@ -63,15 +63,15 @@
   nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--line)}
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
   .logo{display:flex;align-items:center;gap:12px}
-  .logo .mark{font-family:'Fraunces',serif;font-style:italic;font-weight:700;font-size:26px;color:var(--green-d);letter-spacing:-.03em}
+  .logo .mark{font-family:'Schibsted Grotesk',serif;font-style:italic;font-weight:700;font-size:26px;color:var(--green-d);letter-spacing:-.03em}
   .logo .bar{width:1px;height:22px;background:var(--line)}
   .logo .sub{font-size:14px;font-weight:600;color:var(--ink-soft)}
   .navlinks{display:flex;gap:26px;align-items:center}
   .navlinks a{font-size:14.5px;font-weight:500;color:var(--ink-soft)}
   .navlinks a:hover{color:var(--ink)}
   .btn{font:inherit;font-weight:600;font-size:14.5px;border-radius:999px;padding:11px 22px;cursor:pointer;border:1px solid transparent;display:inline-flex;align-items:center;gap:8px;transition:transform .2s var(--ease),box-shadow .25s var(--ease),background .2s ease}
-  .btn-primary{background:var(--green);color:var(--ink);box-shadow:0 12px 32px -8px rgba(0,220,130,.5)}
-  .btn-primary:hover{background:#fff;transform:translateY(-1px);box-shadow:0 18px 44px -10px rgba(0,220,130,.55)}
+  .btn-primary{background:var(--green);color:var(--ink);box-shadow:0 12px 32px -8px rgba(0,214,57,.5)}
+  .btn-primary:hover{background:#fff;transform:translateY(-1px);box-shadow:0 18px 44px -10px rgba(0,214,57,.55)}
   .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
   .btn-ghost:hover{border-color:var(--ink)}
   .btn-ghost.on-dark{color:#fff;border-color:rgba(255,255,255,.28)}
@@ -93,7 +93,7 @@
   .count .lead .k{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--coral)}
   .count .lead .d{font-size:13px;color:#C2CBC6;max-width:17ch;line-height:1.3}
   .cbox{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);color:#fff;border-radius:13px;padding:12px 14px;text-align:center;min-width:62px}
-  .cbox .n{font-family:'Fraunces',serif;font-weight:600;font-size:27px;line-height:1;color:var(--green)}
+  .cbox .n{font-family:'Schibsted Grotesk',serif;font-weight:600;font-size:27px;line-height:1;color:var(--green)}
   .cbox .l{font-size:10px;letter-spacing:.1em;text-transform:uppercase;opacity:.62;margin-top:5px}
 
   /* glass dashboard */
@@ -104,7 +104,7 @@
   .dash-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:13px;color:#E7ECE9}
   .dash-row:last-child{border-bottom:0}
   .dash-row b{color:#fff}
-  .pill{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;background:rgba(0,220,130,.16);color:var(--green)}
+  .pill{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;background:rgba(0,214,57,.16);color:var(--green)}
   .pill.warn{background:rgba(255,118,118,.16);color:#FF9B9B}
   .bar{height:8px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden;margin-top:8px}
   .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--cyan))}
@@ -116,7 +116,7 @@
   /* stat strip */
   .stripe{border-top:1px solid rgba(255,255,255,.07)}
   .stripe .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:34px 28px}
-  .stat .n{font-family:'Fraunces',serif;font-weight:600;font-size:40px;color:var(--green);line-height:1}
+  .stat .n{font-family:'Schibsted Grotesk',serif;font-weight:600;font-size:40px;color:var(--green);line-height:1}
   .stat .l{font-size:13.5px;color:#B9C2BC;margin-top:8px;max-width:32ch}
 
   /* sections */
@@ -130,7 +130,7 @@
   /* evidence tag (red = today / blue = direction) */
   .ev{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 11px;border-radius:999px}
   .ev::before{content:"";width:6px;height:6px;border-radius:50%}
-  .ev.today{background:rgba(0,220,130,.14);color:var(--green)}
+  .ev.today{background:rgba(0,214,57,.14);color:var(--green)}
   .ev.today::before{background:var(--green);box-shadow:0 0 8px var(--green)}
   .ev.next{background:rgba(110,209,240,.14);color:var(--cyan)}
   .ev.next::before{background:var(--cyan);box-shadow:0 0 8px var(--cyan)}
@@ -139,10 +139,10 @@
   .tgrid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center;margin-top:36px}
   .dateline{display:flex;flex-direction:column;gap:11px;margin:6px 0}
   .datecard{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 18px;display:flex;gap:16px;align-items:baseline}
-  .datecard .d{font-family:'Fraunces',serif;font-size:20px;color:var(--green);flex:0 0 112px}
+  .datecard .d{font-family:'Schibsted Grotesk',serif;font-size:20px;color:var(--green);flex:0 0 112px}
   .datecard .w{font-size:13.5px;color:#C9D2CC}
-  .ready-card{background:rgba(0,220,130,.06);border:1px solid rgba(0,220,130,.34);border-radius:18px;padding:28px}
-  .ready-card h3{color:#fff;font-size:22px;margin:14px 0 10px;font-family:'Fraunces',serif;font-weight:600}
+  .ready-card{background:rgba(0,214,57,.06);border:1px solid rgba(0,214,57,.34);border-radius:18px;padding:28px}
+  .ready-card h3{color:#fff;font-size:22px;margin:14px 0 10px;font-family:'Schibsted Grotesk',serif;font-weight:600}
   .ready-card p{color:#C9D2CC;font-size:14.5px}
 
   /* pillars */
@@ -151,19 +151,19 @@
   .pcard:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
   .pcard .ic{width:46px;height:46px;border-radius:13px;background:var(--mint);display:grid;place-items:center;margin-bottom:16px}
   .pcard .ic svg{width:23px;height:23px}
-  .pcard h3{font-size:18.5px;font-family:'Inter',sans-serif;font-weight:700;letter-spacing:-.01em}
+  .pcard h3{font-size:18.5px;font-family:'Hanken Grotesk',sans-serif;font-weight:700;letter-spacing:-.01em}
   .pcard p{font-size:14.5px;color:var(--ink-soft);margin-top:9px}
 
   /* journey */
   .journey{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:42px;position:relative}
   .jstep{padding:0 26px;position:relative}
   .jstep:not(:last-child)::after{content:"";position:absolute;top:21px;right:-1px;width:2px;height:calc(100% - 30px);background:var(--line)}
-  .jdot{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-family:'Fraunces',serif;font-weight:600;font-size:18px;color:#fff;background:var(--ink)}
-  .jstep.live .jdot{background:var(--green);color:var(--ink);box-shadow:0 0 0 6px rgba(0,220,130,.14)}
+  .jdot{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-family:'Schibsted Grotesk',serif;font-weight:600;font-size:18px;color:#fff;background:var(--ink)}
+  .jstep.live .jdot{background:var(--green);color:var(--ink);box-shadow:0 0 0 6px rgba(0,214,57,.14)}
   .jtag{display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:16px 0 6px;padding:3px 10px;border-radius:999px}
   .jtag.now{background:var(--mint);color:var(--green-ink)}
   .jtag.next{background:#EEF1EF;color:var(--muted)}
-  .jstep h3{font-size:19px;font-family:'Inter',sans-serif;font-weight:700}
+  .jstep h3{font-size:19px;font-family:'Hanken Grotesk',sans-serif;font-weight:700}
   .jstep p{font-size:14px;color:var(--ink-soft);margin-top:8px}
 
   /* AI direction band */
@@ -173,9 +173,9 @@
   .ai-head p.sub{color:#B9C2BC;font-size:16.5px;margin-top:14px}
   .ai-list{list-style:none;display:grid;gap:14px}
   .ai-list li{display:flex;gap:13px;align-items:flex-start}
-  .ai-list .ic{flex:0 0 38px;width:38px;height:38px;border-radius:11px;background:rgba(0,220,130,.12);border:1px solid rgba(0,220,130,.3);display:grid;place-items:center}
+  .ai-list .ic{flex:0 0 38px;width:38px;height:38px;border-radius:11px;background:rgba(0,214,57,.12);border:1px solid rgba(0,214,57,.3);display:grid;place-items:center}
   .ai-list .ic svg{width:18px;height:18px}
-  .ai-list b{color:#fff;font-size:15px;font-family:'Inter',sans-serif}
+  .ai-list b{color:#fff;font-size:15px;font-family:'Hanken Grotesk',sans-serif}
   .ai-list span{display:block;color:#9FB0A8;font-size:13.5px;margin-top:2px}
   .ai-note{margin-top:22px;font-size:12px;color:#8FA39A;font-style:italic}
 
@@ -185,9 +185,9 @@
   .price.feat{border:2px solid var(--green);box-shadow:var(--shadow)}
   .price .badge-feat{position:absolute;top:-12px;left:30px;background:var(--green);color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 12px;border-radius:999px}
   .price .kic{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--green-ink)}
-  .price h3{font-family:'Inter',sans-serif;font-weight:700;font-size:20px;margin-top:4px}
-  .price .amt{font-family:'Fraunces',serif;font-size:32px;margin:12px 0 2px}
-  .price .amt small{font-family:'Inter',sans-serif;font-size:13px;color:var(--muted);font-weight:500}
+  .price h3{font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:20px;margin-top:4px}
+  .price .amt{font-family:'Schibsted Grotesk',serif;font-size:32px;margin:12px 0 2px}
+  .price .amt small{font-family:'Hanken Grotesk',sans-serif;font-size:13px;color:var(--muted);font-weight:500}
   .price ul{list-style:none;margin:18px 0 22px;display:grid;gap:11px}
   .price li{font-size:14px;display:flex;gap:9px;color:var(--ink-soft)}
   .price li svg{flex:0 0 17px;width:17px;height:17px;margin-top:2px}
@@ -200,7 +200,7 @@
   .indep span{display:block;font-size:13.5px;color:var(--green-ink);margin-top:2px}
 
   /* proof */
-  .quote{font-family:'Fraunces',serif;font-weight:500;font-size:30px;line-height:1.28;max-width:26ch;margin:0 auto;text-align:center;color:#fff}
+  .quote{font-family:'Schibsted Grotesk',serif;font-weight:500;font-size:30px;line-height:1.28;max-width:26ch;margin:0 auto;text-align:center;color:#fff}
   .quote em{color:var(--green)}
   .qby{text-align:center;margin-top:24px;font-size:14px;color:#C9D2CC}
   .qby b{color:#fff;display:block;font-size:15px}
@@ -216,7 +216,7 @@
   footer{padding:54px 0 40px}
   footer .wrap{display:flex;justify-content:space-between;align-items:flex-start;gap:30px;flex-wrap:wrap}
   footer .conf{font-size:12.5px;color:#8FA39A;max-width:48ch;line-height:1.5}
-  footer .mark{font-family:'Fraunces',serif;font-style:italic;font-weight:700;font-size:24px;color:var(--green)}
+  footer .mark{font-family:'Schibsted Grotesk',serif;font-style:italic;font-weight:700;font-size:24px;color:var(--green)}
 
   /* hero photo (replaces glass dashboard) */
   .hero-photo{border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:var(--shadow-lg);position:relative;line-height:0}
@@ -228,7 +228,7 @@
   .masterband .mb-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 28%}
   .masterband .mb-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,12,10,.88) 0%,rgba(8,12,10,.72) 38%,rgba(8,12,10,.34) 70%,rgba(8,12,10,.18) 100%)}
   .masterband .mb-content{position:relative;z-index:2;max-width:var(--maxw);width:100%;margin:0 auto;padding:64px 28px}
-  .masterband h2{color:#fff;font-family:'Fraunces',serif;font-size:42px;line-height:1.08;max-width:17ch;margin:0}
+  .masterband h2{color:#fff;font-family:'Schibsted Grotesk',serif;font-size:42px;line-height:1.08;max-width:17ch;margin:0}
   .masterband .mb-kicker{color:var(--green);font-size:11.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;display:inline-flex;align-items:center;gap:10px;margin-bottom:16px}
   .masterband .mb-kicker::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
 
@@ -317,7 +317,7 @@
         <img src="Portuguese%20accountant%20website%20image%202.png" alt="Accountant reviewing a client's accounts together on a laptop" fetchpriority="high">
       </div>
       <div class="float a">+34% <span class="pt">tempo libertado</span><span class="en">time freed</span></div>
-      <div class="float b"><span class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg></span><span class="pt">Ligado à AT</span><span class="en">Connected to the AT</span></div>
+      <div class="float b"><span class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg></span><span class="pt">Ligado à AT</span><span class="en">Connected to the AT</span></div>
     </div>
   </div>
 
@@ -368,22 +368,22 @@
          <span class="en">No jumping between products or names. Sage for Accountants brings together the compliance you already trust and the path to high-value advisory — and grows with your firm.</span></p>
     </div>
     <div class="pillars">
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></div>
         <h3><span class="pt">Contabilidade automatizada</span><span class="en">Automated accounting</span></h3>
         <p><span class="pt">Lançamentos, processos recorrentes e fecho com menos esforço e menos erros.</span><span class="en">Postings, recurring processes and closes with less effort and fewer errors.</span></p></div>
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <h3><span class="pt">SAF-T, ATCUD e a AT</span><span class="en">SAF-T, ATCUD & the AT</span></h3>
         <p><span class="pt">Obrigações, comunicações e ficheiros sempre em conformidade e atualizados.</span><span class="en">Obligations, filings and files always compliant and up to date.</span></p></div>
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M4 4h16v12H5.17L4 17.17z"/><path d="M8 9h8M8 12h5"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M4 4h16v12H5.17L4 17.17z"/><path d="M8 9h8M8 12h5"/></svg></div>
         <h3><span class="pt">Arquivo digital na cloud</span><span class="en">Digital archive in the cloud</span></h3>
         <p><span class="pt">Documentos dos clientes acessíveis em qualquer lugar, partilhados com segurança.</span><span class="en">Client documents accessible anywhere, securely shared.</span></p></div>
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
         <h3><span class="pt">Rácios e informação em tempo real</span><span class="en">Ratios & real-time insight</span></h3>
         <p><span class="pt">Indicadores de produtividade e desempenho para decidir com dados.</span><span class="en">Productivity and performance indicators to decide with data.</span></p></div>
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
         <h3><span class="pt">Ligação ao Sage HR</span><span class="en">Sage HR connection</span></h3>
         <p><span class="pt">Salários e gestão de pessoas integrados no fluxo do gabinete.</span><span class="en">Payroll and people management built into the firm's flow.</span></p></div>
-      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82z"/></svg></div>
+      <div class="pcard reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82z"/></svg></div>
         <h3><span class="pt">Flexível: Pay-per-use ou Expert</span><span class="en">Flexible: Pay-per-use or Expert</span></h3>
         <p><span class="pt">Para o contabilista independente ou para o gabinete — pague apenas pelo que precisa.</span><span class="en">For the sole practitioner or the firm — pay only for what you need.</span></p></div>
     </div>
@@ -433,11 +433,11 @@
     </div>
     <div class="reveal">
       <ul class="ai-list">
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00DC82" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></span>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00D639" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></span>
           <div><b><span class="pt">Classificar e propor lançamentos</span><span class="en">Classify & propose entries</span></b><span><span class="pt">Ler os documentos dos clientes e sugerir os lançamentos contabilísticos.</span><span class="en">Read client documents and suggest the accounting entries.</span></span></div></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00DC82" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></span>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00D639" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></span>
           <div><b><span class="pt">Conciliar com sugestões inteligentes</span><span class="en">Reconcile with smart suggestions</span></b><span><span class="pt">Reconciliação bancária mais rápida, com menos toque manual.</span><span class="en">Faster bank reconciliation, with less manual touch.</span></span></div></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00DC82" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></span>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#00D639" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></span>
           <div><b><span class="pt">Antecipar e aconselhar</span><span class="en">Anticipate & advise</span></b><span><span class="pt">Indicadores que ajudam o contabilista a agir antes do cliente perguntar.</span><span class="en">Insight that helps the accountant act before the client asks.</span></span></div></li>
       </ul>
       <p class="ai-note"><span class="pt">Capacidades em desenvolvimento, apresentadas como direção de produto — não como funcionalidades disponíveis hoje.</span><span class="en">Capabilities in development, shown as product direction — not as features available today.</span></p>
@@ -472,9 +472,9 @@
         <h3><span class="pt">Contabilista independente</span><span class="en">Sole practitioner</span></h3>
         <div class="amt"><span class="pt">desde 3,90€</span><span class="en">from €3.90</span> <small>/ <span class="pt">empresa / mês</span><span class="en">company / mo.</span></small></div>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Subscreva apenas as empresas que precisa</span><span class="en">Subscribe only the companies you need</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Contabilidade e faturação certificada</span><span class="en">Accounting and certified invoicing</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Pronto para a faturação 2027</span><span class="en">Ready for 2027 e-invoicing</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Subscreva apenas as empresas que precisa</span><span class="en">Subscribe only the companies you need</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Contabilidade e faturação certificada</span><span class="en">Accounting and certified invoicing</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Pronto para a faturação 2027</span><span class="en">Ready for 2027 e-invoicing</span></li>
         </ul>
         <button class="btn btn-ghost"><span class="pt">Comece já</span><span class="en">Get started</span></button>
       </div>
@@ -484,16 +484,16 @@
         <h3><span class="pt">Gabinete de contabilidade</span><span class="en">Accounting firm</span></h3>
         <div class="amt"><span class="pt">packs de 20 / 50 / 100+</span><span class="en">packs of 20 / 50 / 100+</span></div>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Tudo no Pay-per-use, mais:</span><span class="en">Everything in Pay-per-use, plus:</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Gestão de obrigações e de gabinete</span><span class="en">Obligations & practice management</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Cópia de configurações entre empresas</span><span class="en">Copy settings across companies</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="#04B86E" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Disponível na cloud</span><span class="en">Available in the cloud</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Tudo no Pay-per-use, mais:</span><span class="en">Everything in Pay-per-use, plus:</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Gestão de obrigações e de gabinete</span><span class="en">Obligations & practice management</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Cópia de configurações entre empresas</span><span class="en">Copy settings across companies</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="#00B833" stroke-width="2.6"><path d="M5 13l4 4L19 7"/></svg><span class="pt">Disponível na cloud</span><span class="en">Available in the cloud</span></li>
         </ul>
         <button class="btn btn-primary"><span class="pt">Peça uma demonstração</span><span class="en">Request a demo</span></button>
       </div>
     </div>
     <div class="indep reveal">
-      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#065C3C" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg></span>
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#008146" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg></span>
       <div><b><span class="pt">Profundidade de conformidade, alcance global.</span><span class="en">Compliance depth, global reach.</span></b>
         <span><span class="pt">Décadas de experiência regulatória, profundidade de SAF-T e a rede de contabilistas — uma plataforma global e independente ao serviço de milhões de empresas.</span><span class="en">Decades of regulatory experience, SAF-T depth and the accountant network — a global, independent platform serving millions of businesses.</span></span></div>
     </div>
